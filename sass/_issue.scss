@@ -24,25 +24,36 @@
 div.issue div.attributes {
     .attribute {
         overflow: hidden;
-        
+
         .label, .value {
+            color: rgb(119, 119, 119);
             display: inline-block;
+            margin-bottom: 1em;
         }
-        
+
         .label {
             font-weight: bold;
             margin-right: 1em;
+            float: left;
+            width: 22%;
+        }
+
+        .label {
+            width: 28%;
+        }
+
+        .value {
+          padding-top: 1px;
         }
     }
-    
+
     .attribute.progress {
         .value {
             min-width: 200px;
-            
+
             p {
                 margin: 3px 0;
             }
         }
     }
 }
-

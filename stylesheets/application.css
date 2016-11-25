@@ -4805,15 +4805,15 @@ li.change.change-D {
 .pagination-wrapper {
   clear: both; }
 
-.pagination .pages {
+.pages {
   padding: 0; }
-  .pagination .pages li {
+  .pages li {
     display: inline-block; }
-    .pagination .pages li span, .pagination .pages li a, .pagination .pages li .icon-add.checklist-new-only {
+    .pages li span, .pages li a, .pages li .icon-add.checklist-new-only {
       padding: 5px;
       display: inline-block; }
       @media screen and (max-width: 899px) {
-        .pagination .pages li span, .pagination .pages li a, .pagination .pages li .icon-add.checklist-new-only {
+        .pages li span, .pages li a, .pages li .icon-add.checklist-new-only {
           padding: 5px 10px; } }
 
 #main #sidebar .watchers li img.gravatar {
@@ -4834,10 +4834,18 @@ li.change.change-D {
 div.issue div.attributes .attribute {
   overflow: hidden; }
   div.issue div.attributes .attribute .label, div.issue div.attributes .attribute .value {
-    display: inline-block; }
+    color: #777777;
+    display: inline-block;
+    margin-bottom: 1em; }
   div.issue div.attributes .attribute .label {
     font-weight: bold;
-    margin-right: 1em; }
+    margin-right: 1em;
+    float: left;
+    width: 22%; }
+  div.issue div.attributes .attribute .label {
+    width: 28%; }
+  div.issue div.attributes .attribute .value {
+    padding-top: 1px; }
 div.issue div.attributes .attribute.progress .value {
   min-width: 200px; }
   div.issue div.attributes .attribute.progress .value p {
@@ -5240,7 +5248,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 23.23176%;
+    width: 14.70196%;
     padding-top: 1em; }
     #main #sidebar:last-child {
       margin-right: 0; }
@@ -5292,7 +5300,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 74.41059%;
+    width: 82.94039%;
     margin-right: 0;
     z-index: 10;
     position: relative; }
@@ -5309,13 +5317,6 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
         top: 0.8em;
         margin-right: 0.1em; }
       #main #content .contextual a:before, #main #content .contextual .icon-add.checklist-new-only:before {
-        margin-left: 1em; }
-    #main #content h2:first-of-type {
-      font-weight: 400;
-      border-bottom: 1px solid #CCCCCC;
-      margin: 0 0 1.2em;
-      padding: 0.7em 0; }
-      #main #content h2:first-of-type .live_search {
         margin-left: 1em; }
     #main #content form .contextual {
       top: 0.4em;
@@ -6492,7 +6493,8 @@ table.progress {
   empty-cells: show;
   text-align: center;
   float: left;
-  margin: 1px 6px 1px 0; }
+  margin: 1px 6px 1px 0;
+  min-width: 66px; }
 
 table.progress td.closed {
   background: #BAE0BA none repeat scroll 0; }
