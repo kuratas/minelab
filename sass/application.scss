@@ -1555,7 +1555,7 @@ div.issue table.attributes td {
 }
 
 fieldset.collapsible > legend {
-  @extend .fa-caret-right;
+  @extend .fa-caret-down;
 
   cursor: pointer;
 
@@ -1567,7 +1567,7 @@ fieldset.collapsible > legend {
 }
 
 fieldset.collapsible.collapsed > legend {
-  @extend .fa-caret-down;
+  @extend .fa-caret-right;
 }
 
 fieldset#date-range p {

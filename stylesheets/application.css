@@ -3193,7 +3193,7 @@ div.members h3:before {
 .fa-money:before, #top-menu a.expenses:before, #top-menu .expenses.icon-add.checklist-new-only:before {
   content: "\f0d6"; }
 
-.fa-caret-down:before, fieldset.collapsible.collapsed > legend:before {
+.fa-caret-down:before, fieldset.collapsible > legend:before {
   content: "\f0d7"; }
 
 .fa-caret-up:before {
@@ -3202,7 +3202,7 @@ div.members h3:before {
 .fa-caret-left:before {
   content: "\f0d9"; }
 
-.fa-caret-right:before, fieldset.collapsible > legend:before, tr.project.idnt td.name span:before, tr.issue.idnt td.subject a:before, tr.issue.idnt td.subject .icon-add.checklist-new-only:before {
+.fa-caret-right:before, fieldset.collapsible.collapsed > legend:before, tr.project.idnt td.name span:before, tr.issue.idnt td.subject a:before, tr.issue.idnt td.subject .icon-add.checklist-new-only:before {
   content: "\f0da"; }
 
 .fa-columns:before, .jstElements .jstb_pre:before {
