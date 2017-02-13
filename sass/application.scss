@@ -713,7 +713,7 @@ select {
   }
 
   #sidebar {
-    @include span-columns(2);
+    @include span-columns(3);
 
     padding-top: 1em;
 
@@ -797,7 +797,7 @@ select {
       top: 1.6em;
     }
 
-    @include span-columns(10);
+    @include span-columns(9);
 
     margin-right: 0;
     z-index: 10;
